@@ -1,6 +1,7 @@
 # MavenServerTool 为nexus开发的java sdk
 #使用方法
-public class Test extends TestCase {
+	
+    public class Test extends TestCase {
 
 	private MavenServer mavenServer;
 
