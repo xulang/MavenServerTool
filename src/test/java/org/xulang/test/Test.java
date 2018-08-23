@@ -21,7 +21,7 @@ public class Test extends TestCase {
 
 	@Override
 	protected void setUp() throws Exception {
-		mavenServer = new MavenServer("bank_dept3_hosted_snapshot_user", "bank.dept3@321", "repos.hundsun.com", "6060");
+		mavenServer = new MavenServer("username", "password", "ip", "port");
 	}
 
 	public void testUploadJarWithoutPom() throws Exception {
